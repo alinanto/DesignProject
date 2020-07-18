@@ -2,7 +2,6 @@
 Smart Energy Meter implemented using Atmega32 as part of academic curriculum
 
 ## Acknowledgment
-
 I express my sincere gratitude to our project guide Prof. Jose Sebastian, Department of Electrical Engineering, Government Engineering College,
 Thrissur for his timely guidance, inspiration and constant support during the course of the project work. 
 I am also thankful to my group tutor Mrs. Jayasoorya, Assistant Professor, Department of Electrical Engineering, Government Engineering
@@ -27,22 +26,28 @@ Energy conservation is also a main driving factor which has
 led to the selection of this particular product.
 
 ## External dependencies
-
 The work uses 2 external libraries for lcd and uart interface provided by Peter Fleury.
-These following files mentioned below are used as such from his library.
+These following files mentioned below are used as such from his library.  
+uart.h  
+uart.c
 
-~uart.h
-
-~uart.c
-
-These following files mentioned below are used with slight improvements from his library.
-
-~lcd.h
-
-~lcd.c
+These following files mentioned below are used with slight improvements from his library.  
+lcd.h  
+lcd.c
 
 The original version of his work can be obtained from http://www.peterfleury.epizy.com/
 
 ## Pin mappings
 
 The pin mappings for the hardware are mentioned in the headerfiles for the same.
+
+## Features included
+Billing and Tarriff settings  
+Overload warning  
+Power Factor measurement and penality settings  
+GSM adaptability  
+Smart Devices adaptability  
+Optimised usage time notifications
+
+
+![project image](https://github.com/alinanto/DesignProject/blob/master/Gallery/IMG_20171122_113356.jpg)
